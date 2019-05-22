@@ -7,7 +7,8 @@ const knexConfig ={
   connection: { //string or object}
   filename:'./data/rolex.db3' // the root folder
 },
-useNullAsDefault: true
+useNullAsDefault: true,
+debug: true,
 }
 
 const db = knex(knexConfig);
